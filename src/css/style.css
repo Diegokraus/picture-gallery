@@ -1,0 +1,44 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    display: flex;
+}
+
+.gallery img{
+    width: 335px;
+    height: 432px;
+}
+
+.legenda{
+    position: relative;
+}
+
+.legenda div{
+    color:#fff;
+
+    position: absolute;
+    bottom:45px;
+    left:20px;
+}
+
+.legenda div h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.legenda div p{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px){
+    .gallery{
+        flex-direction: column;
+    }
+
+}
